@@ -24,7 +24,7 @@ int main() {
   if (choice == 1) {
     cout << "Enter radius ";
     cin >> radius;
-    area = pow(3.14, radius);
+    area = 3.145 * pow(radius, 2);
     cout << area << endl;
   }
   if (choice == 2) {
